@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country List</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        #container {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 30% 70%;
+            /* overflow: hidden; */
+        }
+
+        #list {
+            background-color: #606060FF;
+            color: #D6ED17FF;
+        }
+
+        #ul {
+            cursor: pointer;
+            line-height: 25px;
+        }
+
+        #details {
+            background: #D6ED17FF;
+            color: #606060FF;
+            height: 616px;
+            position: sticky;
+            top: 0px;
+            display: grid;
+            grid-template-rows: 250px 366px;
+        }
+
+        #details img {
+            width: 250px;
+            padding: 20px;
+            background: #ffffff63;
+            border-radius: 5px;
+        }
+
+        #Country-Flag {
+            margin: auto;
+        }
+
+        #Country-Details-Container {}
+
+        #Country-Details {
+            display: inline-block;
+            padding: 0px 28px;
+            line-height: 9px;
+            background: #ffffff69;
+            margin: 0px 27px;
+            width: 82%;
+            margin-top: -17px;
+            border-radius: 10px;
+        }
+
+        #Country-Name {
+            text-align: center;
+            margin-top: 0px;
+            color: black;
+        }
+
+        .Details-paragraph {
+            font-size: 24px;
+        }
+
+        .Details-Span {
+            font-weight: 500;
+            color: #880d0d;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="list">
+            <ul id="ul"></ul>
+        </div>
+        <div id="details">
+            <div id="Country-Flag">
+                <img id="flagImg" src="https://restcountries.eu/data/afg.svg" alt="">
+            </div>
+            <div id="Country-Details-Container">
+                <h1 id="Country-Name">Afghanistan</h1>
+                <div id="Country-Details">
+                    <p class="Details-paragraph">Native Name: <span id="Native-Name"
+                            class="Details-Span">افغانستان</span></p>
+                    <p class="Details-paragraph">Calling Codes: <span id="Calling-Codes" class="Details-Span">93</span>
+                    </p>
+                    <p class="Details-paragraph">Capital: <span id="Capital" class="Details-Span">Kabul</span></p>
+                    <p class="Details-paragraph">Area: <span id="Area" class="Details-Span">652230</span></p>
+                    <p class="Details-paragraph">Languages: <span id="Languages"
+                            class="Details-Span">Pashto,Uzbek,Turkmen</span></p>
+                    <p class="Details-paragraph">Population: <span id="Population" class="Details-Span">27657145</span>
+                    </p>
+                    <p class="Details-paragraph">Region: <span id="Region" class="Details-Span">Asia</span></p>
+                    <p class="Details-paragraph">Time-Zone: <span id="Time-Zone" class="Details-Span">UTC+04:30</span>
+                    </p>
+                    <p class="Details-paragraph">Top Level Domain: <span id="Domain" class="Details-Span">.af</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="setting.js"></script>
+</body>
+
+</html>
