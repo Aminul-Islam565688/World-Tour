@@ -25,7 +25,7 @@ function fancy(){
 ```
 
 first header | second header
----------|---------
+-|-
 this is from first column | this is from second column
 this is from same col of 1st | this is from different col of 2nd
 
