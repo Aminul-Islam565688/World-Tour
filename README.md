@@ -23,4 +23,12 @@ function fancy(){
  <h1>this is just a test function</h1>
 }
 ```
+
+first header | second header
+-------------|--------------
+this is from first column | this is from second column
+this is from same col of 1st | this is from different col of 2nd
+
+
+
 # https://aminul-islam565688.github.io/World-Tour/
